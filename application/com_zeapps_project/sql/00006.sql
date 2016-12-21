@@ -1,0 +1,1 @@
+ALTER TABLE `zeapps_projects` ADD `priority` TINYINT UNSIGNED NOT NULL DEFAULT '0' AFTER `project_name`, ADD `status` TINYINT UNSIGNED NOT NULL DEFAULT '0' AFTER `priority`;

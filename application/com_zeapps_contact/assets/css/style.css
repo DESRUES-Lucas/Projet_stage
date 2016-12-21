@@ -1,0 +1,12 @@
+.table {
+    margin-top: 20px !important;
+}
+
+.pointerToDelete {
+    cursor: pointer;
+}
+
+.titleWell {
+    font-size: 1.5em;
+    font-weight: bold;
+}

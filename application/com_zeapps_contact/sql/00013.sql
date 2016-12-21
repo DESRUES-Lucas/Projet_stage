@@ -1,0 +1,1 @@
+ALTER TABLE `zeapps_companies` ADD `code_naf_libelle` VARCHAR(255) NOT NULL AFTER `code_naf`;

@@ -1,0 +1,1 @@
+ALTER TABLE `zeapps_project_tasks` ADD `completed_at` TIMESTAMP NULL DEFAULT NULL AFTER `deleted_at`;

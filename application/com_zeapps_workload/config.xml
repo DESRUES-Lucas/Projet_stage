@@ -1,0 +1,11 @@
+<?xml version='1.0' standalone='yes'?>
+<zeapps>
+    <module>
+        <module_id>com_zeapps_workload</module_id>
+        <name>Workload</name>
+        <version>1.0.0</version>
+        <active>1</active>
+        <dependencies>
+        </dependencies>
+    </module>
+</zeapps>

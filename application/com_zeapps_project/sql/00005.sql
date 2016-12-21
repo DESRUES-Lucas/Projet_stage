@@ -1,0 +1,1 @@
+ALTER TABLE `zeapps_projects` ADD `archived_at` TIMESTAMP NULL DEFAULT NULL AFTER `deleted_at`;

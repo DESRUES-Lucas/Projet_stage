@@ -1,0 +1,75 @@
+.sous-total td {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.total div {
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.no-deco{
+    text-decoration: none !important;
+}
+.faded{
+    opacity: .4;
+}
+.faded:hover,
+.faded:focus{
+    opacity: 1;
+}
+
+.tree .branch{
+    padding-left: 20px;
+    cursor: pointer;
+}
+.tree .branch .branch-name{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 5px;
+}
+.tree .branch > .tree,
+.tree .branch > .leaves{
+    display: none;
+}
+.tree .branch.open > .tree,
+.tree .branch.open > .leaves{
+    display: initial;
+}
+.tree .branch .leaves .leaf{
+    padding-left: 20px;
+}
+
+.branch-list,
+.leaves{
+    margin-left: 20px;
+}
+
+.tree .glyphicon{
+    font-size: .75em;
+    margin-right: 5px;
+}
+
+.active-category-title .glyphicon{
+    font-size: .75em;
+}
+
+.add-new-branch,
+.add-new-leaf{
+    display: block;
+}
+
+.branch-sortable{
+    cursor: pointer;
+    padding: 3px 0 3px 3px;
+    margin-bottom: 1px;
+    border: 1px dotted rgba(0,0,0,.3);
+}
+
+.required{
+    color: #D80000;
+}
+
+p.indented{
+    padding-left: 25px;
+}
